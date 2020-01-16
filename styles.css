@@ -60,18 +60,19 @@ li {
 
   p.textBox{
       overflow: auto;
-      width:400px;
-      height: 480px;
+      width:480px;
+      height: 400px;
       float: center;
-    margin: 10px;
-    padding: 10px;
+    margin: 0px;
+    padding-bottom: 15px;
     text-align: center;
+    font-size: 25px;
   }
 
   #picLarge {
       float: left;
       margin: 0px;
-      padding: 10px;
+      padding-bottom: 15px;
   }
 
   #hero{
@@ -84,6 +85,14 @@ li {
       height: 150px;
       background-color: grey;
   }
+button{
+    float:left;
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
 
   button:hover{
 background-color: red;
